@@ -44,6 +44,6 @@ spec:
           periodSeconds: 20
         readinessProbe:
           httpGet:
-            path: /heath
+            path: /health
             port: 5000
 
